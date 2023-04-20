@@ -13,6 +13,6 @@ while True:
     elif numero % a == 0 and a != numero:
         print("Não primo")
         break
-    elif numero % a == 0 and a == numero:
+    elif a == numero:
         print("Primo")
         break
